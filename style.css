@@ -1,0 +1,874 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans&display=swap');
+
+
+/*header start*/
+html {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.header {
+    width: 1920px;
+    height: 690px;
+    background: url(./img/header-fon.png) no-repeat;
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    padding-bottom: 100px;
+}
+
+.header__panel {
+    width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 38px;
+    display: flex;
+}
+
+.header__logo {
+    display: flex;
+    width: 303px;
+    height: 56px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    line-height: 31px;
+    color: #FFFFFF;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    padding-left: 121px;
+}
+
+.header__link {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    display: inline-flex;
+    margin-right: 64px;
+    padding-top: 5px;
+}
+
+.header__button {
+    padding-left: 48px;
+}
+
+.header__button p {
+    height: 22px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 170%;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.header__button button {
+    width: 287px;
+    height: 50px;
+    background: #DF9830;
+    border-radius: 5px;
+    border: 0px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.header__intro {
+
+    padding-top: 82px;
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.header__intro h2 {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.header__intro img {
+    padding-right: 17.5px;
+}
+
+.header__info {
+    width: 667px;
+    display: block;
+    float: left;
+}
+
+.header__info h1 {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 86px;
+    color: #FFFFFF;
+}
+
+.header__info button {
+    margin-top: 35px;
+    width: 422px;
+    height: 50px;
+    background: #70873A;
+    border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+}
+
+.header__social {
+    display: inline-flex;
+    flex-direction: column;
+    float: right;
+    margin-top: 35px;
+}
+
+.header__social img {
+    margin-top: 30px;
+}
+
+/*header end*/
+
+/*main start*/
+main {
+    width: 1920px;
+    height: 690px;
+    flex: 1 1 auto;
+}
+
+.wrapper {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__info-1 {}
+
+.main__img-1 {
+    width: 640px;
+    height: 503px;
+    background-color: red;
+    float: left;
+    background: url(./img/sauna-1.png) no-repeat;
+    display: block;
+    padding-bottom: 100px;
+}
+
+.main__form-fon {
+    width: 640px;
+    height: 403px;
+    background-color: #70873A;
+    float: right;
+    display: block;
+    padding-bottom: 100px;
+}
+
+.main__form-fon h1 {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main__input {
+    width: 422px;
+    margin-top: 39px;
+    margin-left: 110px;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #FFFFFF;
+
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #FFFFFF;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #FFFFFF;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #FFFFFF;
+}
+
+.main__form p {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 423px;
+    height: 38px;
+    margin-top: 30px;
+    margin-left: 111px;
+}
+
+.main__checkbox {
+    margin: 0 10px 0 0;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 2px;
+}
+
+.main__form button {
+    width: 422px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #70873A;
+    margin-left: 111px;
+    margin-top: 40px;
+}
+
+
+/*main__info-2 start*/
+
+.main__info-2 {
+    height: 100vh;
+}
+
+.main__text-2 {
+    width: 660px;
+    height: 365px;
+    float: left;
+}
+
+.main__img-2 {
+    width: 620px;
+    height: 365px;
+    float: right;
+    background: url(./img/sauna-2.png);
+}
+
+.main__text-2 h1 {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 74px;
+    letter-spacing: 0.03em;
+    color: #1E1E1E;
+    margin-bottom: 35px;
+}
+
+.main__text-2 p {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4B4B4B;
+}
+
+.main__info-3 {
+    padding-top: 100px;
+    margin-bottom: 35px;
+}
+
+.main__info-3_foto {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.main__info-3 h1 {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 74px;
+    letter-spacing: 0.03em;
+    color: #1E1E1E;
+    padding-bottom: 35px;
+}
+
+.main__info-3__foto-1 {
+    width: 400px;
+    height: 236px;
+    background: url(./img/sauna-3.png) no-repeat;
+}
+
+.main__info-3__foto-2 {
+    width: 400px;
+    height: 236px;
+    background: url(./img/sauna-4.png) no-repeat;
+}
+
+.main__info-3__foto-3 {
+    width: 400px;
+    height: 236px;
+    background: url(./img/sauna-5.png) no-repeat;
+}
+
+.main__info-3_text {
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    height: 302px;
+    background: #FFFFFF;
+    border: 1px solid #F8F8F8;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+}
+
+.main__info-3_price {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 455px;
+    height: 228px;
+    float: left;
+}
+
+.main__info-3_info {
+    margin-top: 20px;
+    margin-right: 105px;
+    width: 485px;
+    height: 228px;
+    float: right;
+}
+
+.main__info-3_text hr {
+    border: 1px solid rgba(30, 30, 30, 0.2);
+    transform: rotate(90deg);
+    width: 262px;
+    margin: 0;
+    position: relative;
+    top: 150px;
+}
+
+.main__info-3_text h1 {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #1E1E1E;
+}
+
+.main__info-3_price h2 {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+}
+
+.time-1 {
+    display: flex;
+    justify-content: left;
+}
+
+.time-1 p {
+    margin-top: 10px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.time-1 span {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #70873A;
+
+}
+
+.price-2 {
+    margin-left: 60px
+}
+
+.main__info-3_price button {
+    margin-top: 35px;
+    width: 435px;
+    height: 50px;
+    background: #70873A;
+    border-radius: 5px;
+    border: 0;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #FFFFFF;
+
+}
+
+.main__info-3_info h2 {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #70873A;
+}
+
+.main__info-3_info p {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #4B4B4B;
+    width: 260px;
+    margin-top: 10px;
+}
+
+.info-3-1 {
+    display: flex;
+    justify-content: left;
+}
+
+.info-3-3 {
+    margin-left: 70px;
+}
+
+.info-3-4 {
+    margin-top: 61px;
+}
+
+.info-3-5 {
+    margin-top: 20px;
+}
+
+.main__info {}
+
+.main__info-4 h1,
+h2 {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: .03em;
+    color: #1E1E1E;
+}
+
+.main__info-4 h2 {
+    display: flex;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    margin-top: 39px;
+}
+
+.main__info-4 p {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 135%;
+    color: #4B4B4B;
+    margin-top: 19px;
+}
+
+.main__info-4 img {
+    margin-right: 15px;
+}
+
+.main__info-5 {
+    margin-top: 80px;
+    height: 610px;
+    width: 100%;
+}
+
+.main__info-5 h1 {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 74px;
+    color: #1E1E1E;
+    letter-spacing: 0.03em;
+}
+
+.main__banner {
+    width: 1140px;
+    height: 300px;
+    background: #FFFFFF;
+    border: 1px solid #70873A;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main__info-5-img {
+    float: right;
+}
+
+.main__info-5-text {
+    float: left;
+}
+
+.main__info-5-text h2 {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.03em;
+    color: #1E1E1E;
+    margin-top: 56px;
+    margin-left: 40px;
+}
+
+.main__info-5-text span {
+    font-size: 60px;
+    line-height: 74px;
+    letter-spacing: 0.03em;
+
+    color: #70873A;
+}
+
+.main__info-5-text p {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #4B4B4B;
+    margin-left: 40px;
+    margin-top: 9px;
+}
+
+.main__info-5-text button {
+    width: 422px;
+    height: 50px;
+    background: #70873A;
+    border-radius: 5px;
+    border: 0;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #FFFFFF;
+    margin-top: 49px;
+    margin-left: 40px;
+}
+
+.main__info-6 {
+    width: 1920px;
+    height: 260px;
+    background: linear-gradient(90deg, #70873A 0%, #76B852 100%);
+    margin-top: 50px;
+    position: relative;
+    right: 320px;
+}
+
+.main__info-6-info {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__info-6-img {
+    position: relative;
+    top: -121px;
+    float: left;
+}
+
+.main__info-6-text {
+    margin-top: 24px;
+    margin-left: 50px;
+    width: 894px;
+    height: 206px;
+    float: right;
+}
+
+.colum-1 {
+    width: 460px;
+    height: 206px;
+    float: left;
+}
+
+.colum-2 {
+    width: 422px;
+    height: 206px;
+    float: right;
+    margin-left: 10px;
+}
+
+.colum-1 h1 {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.colum-1 p {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.colum-2 button {
+    width: 422px;
+    height: 50px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(90.8deg, #FF512F 0%, #F09819 100%);
+    border-radius: 5px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #70873A;
+    border: 0;
+}
+
+.main__info-7 h1 {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 74px;
+    letter-spacing: 0.03em;
+    color: #1E1E1E;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 1000px;
+    margin-bottom: 32px;
+}
+
+.main__info-7 h2 {
+    margin-top: 12px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1E1E1E;
+}
+
+.main__info-7 p {
+    margin-top: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E1E1E;
+}
+
+.main__info-7 hr {
+    margin-top: 30px;
+    width: 1280px;
+    height: 0px;
+    border: 1px solid rgba(75, 75, 75, 0.7);
+    margin-bottom: 42px;
+}
+
+.main__info-7 span {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 1120px;
+}
+
+.main__info-7-button {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-1 {
+    width: 422px;
+    height: 50px;
+    background: #70873A;
+    border-radius: 5px;
+    border: 0;
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #FFFFFF;
+}
+
+.button-2 {
+    width: 422px;
+    height: 50px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(90.8deg, #FF512F 0%, #F09819 100%);
+    border: 1px solid #70873A;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #70873A;
+
+}
+
+/*main__info-2 end*/
+/*main end*/
+
+/*footer start*/
+
+.footer {
+    padding-top: 3650px;
+}
+
+.contact-fon {
+    background: url(./img/map.png);
+    width: 1920px;
+    height: 500px;
+}
+
+.contact {
+    width: 550px;
+    height: 400px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    margin-left: 320px;
+    position: relative;
+    top: 50px;
+}
+
+.footer-green {
+    width: 1920px;
+    height: 118px;
+    background: #70873A;
+}
+
+.header__social-1 img {
+    margin-right: 30px;
+    margin-top: 35px;
+}
+
+.contact p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1E1E1E;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-left: 74px;
+    margin-top: 33px;  
+
+}
+
+.contact-info  button{
+    width: 422px;
+    height: 65px;
+    background: #70873A;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 35px;
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.contact-info img{
+    margin-right: 12px;
+}
+
+.footer-green h1{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-top: 45px;
+}
+/*footer end*/
